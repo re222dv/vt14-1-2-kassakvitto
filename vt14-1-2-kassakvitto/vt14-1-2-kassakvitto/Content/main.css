@@ -1,0 +1,38 @@
+﻿body {
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 0.5rem;
+}
+
+.receipt {
+    position: relative;
+    margin-top: 10px;
+    padding: 0 10px;
+    width: 190px;
+
+    background-color: lightgray;
+    border: 1px solid darkgray;
+}
+
+.receipt h1 {
+    margin-top: 1rem;
+    width: 100%;
+
+    text-align: center;
+}
+
+.receipt dt, .receipt dd {
+    margin-bottom: 0.5em;
+}
+
+.receipt dd {
+    position: absolute;
+    right: 10px;
+    margin-top: -1.8em;
+}
